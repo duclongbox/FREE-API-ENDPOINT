@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>API Documentation</h1>
+    <p>This API return information about product</p>
+    <hr/>
+    <table>
+        <thead>
+            <tr>
+                <td>Method</td>
+                <td>EndPoint</td>
+                <td>Description</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>GET</td>
+                <td><a href="/api/products/price">/my/api/endpoint/:goes/here</a></td>
+                <td>Returns all the products that meet the specified minimum price</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <H1>Testing API Endpoint</H1>
+    <p>Enter the minimum product price:</p>
+    <form action="/api/products/get" method="POST" id="form">
+        <input type="text" id="productPrice" placeholder="Enter minmum price" name="productPrice"/>
+    </form>
+    <button id="btnGetProducts">Get Products</button>
+    <section id="results">
+        
+    </section> 
+
+    <script type="text/javascript" src="/app.js">
+        
+    </script>
+</body>
+</html>
