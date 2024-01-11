@@ -1,3 +1,4 @@
+##Public API
 | Command | Description |
 | --- | --- |
 | git status | List all new or modified files |
