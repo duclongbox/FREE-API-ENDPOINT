@@ -1,5 +1,5 @@
-##Public API
-| Command | Description |
+# Public API
+| End Point | Description |
 | --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| /api/products/price/ | Collection of products with keys (title, description, price, thumbnail) |
+| /api/products/price/:priceToFind? | Show the products with the price higher than the entered price |
